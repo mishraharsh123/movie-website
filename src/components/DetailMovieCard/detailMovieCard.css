@@ -1,0 +1,34 @@
+.detailMovieCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8e6e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(109, 90, 90, 0.4);
+    overflow: hidden;
+    max-width: 400px;
+    margin: auto;
+}
+
+.moviePoster {
+    width: 100%;
+    height: 350px;
+}
+
+.movieDetails {
+    padding: 15px;
+    text-align: left;
+}
+
+.movieDetails h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+.movieDetails p {
+    margin: 5px 0;
+}
+
+.movieDetails strong {
+    font-weight: bold;
+}

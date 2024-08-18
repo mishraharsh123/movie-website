@@ -1,0 +1,49 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer {
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: 220px;
+    background-color: #efe8e8;
+}
+
+.innerLogin {
+    padding: 5px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.createAccount {
+    text-align: center;
+}
+
+.emailInput {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.accountBtn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightblue;
+    outline: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.accountBtn:hover {
+    background-color: rgb(104, 196, 227);
+}

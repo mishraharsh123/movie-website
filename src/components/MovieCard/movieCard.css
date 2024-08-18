@@ -1,0 +1,25 @@
+.movieCard {
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: gainsboro;
+}
+
+.movieImage {
+    height: 180px;
+    border-radius: 10px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.addToList {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookmark {
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.sidebar {
+    flex: 1;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(255, 238, 238);
+    position: relative;
+}
+
+.topHeading {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 1.8rem;
+    width: 100%;
+    left: 0;
+    top: 6rem;
+    position: absolute;
+}
+
+.red {
+    background-color: #f33f40;
+}
+
+@media screen and (max-width: 800px) {
+    .topHeading {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+        min-height: 250px;
+    }
+
+    .buttons {
+        top: 3rem;
+    }
+
+    .topHeading {
+        margin-top: 0.5rem;
+    }
+}
