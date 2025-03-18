@@ -2,11 +2,11 @@
 <a href="https://movie-watchlist09.netlify.app">Live Link</a>
 
 # Project Title
-Authenticate frontend developer Assignment - Movie Watchlist App
+Movie - Watchlist 
 
 # Tech Used
 - React + vite
-- Zustand for state management
+- Redux for state management
 
 
 # Features
@@ -18,13 +18,3 @@ Authenticate frontend developer Assignment - Movie Watchlist App
 - Remove movies from their watchlist.
 - View their personal watchlist.
 
-# Evaluation Criteria
-
-- Completion of all features and requirements ✅
-- Code organization, readability, and reusability ✅
-- Proper usage of React concepts and best practices ✅
-- State management ✅
-- Routing implementation ✅
-- User authentication and personalization ✅
-- Error handling ✅
-- Responsiveness ✅
